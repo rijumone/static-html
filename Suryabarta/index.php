@@ -70,13 +70,13 @@
                             <!-- Collect the nav links, forms, and other content for toggling -->
                             <div class="collapse navbar-collapse" id="menu">
                                 <ul class="nav navbar-nav">
-                                    <li class="active"><a href="#about">অন্দরমহল</a></li>
-                                    <li><a href="#communicate">সম্পর্ক</a></li>
-                                    <li><a href="#subscription">সান্নিধ্য</a></li>                                                                                                             
-                                    <li><a href="#submission">পান্ডুলিপি</a></li>
-                                    <li><a href="#previous_issues">অতীত স্মৃতি</a></li>
-                                    <li><a href="#advertisement">বিজ্ঞাপন</a></li>
-                                    <li><a href="#publication">প্রকাশনা</a></li>
+                                    <li class="active"><a href="javascript:void(0);" class="active" onclick="goToSection('about',$(this))">অন্দরমহল</a></li>
+                                    <li><a href="javascript:void(0);" onclick="goToSection('communicate',$(this));">সম্পর্ক</a></li>
+                                    <li><a href="javascript:void(0);"  onclick="goToSection('subscription',$(this));">সান্নিধ্য</a></li>                                                                                                             
+                                    <li><a href="javascript:void(0);"  onclick="goToSection('submission',$(this));">পান্ডুলিপি</a></li>
+                                    <li><a href="javascript:void(0);"  onclick="goToSection('previous_issues',$(this));"    >অতীত স্মৃতি</a></li>
+                                    <li><a href="javascript:void(0);"  onclick="goToSection('advertisement',$(this));" >বিজ্ঞাপন</a></li>
+                                    <li><a href="javascript:void(0);"  onclick="goToSection('publication',$(this));" >প্রকাশনা</a></li>
                                 </ul>
                             </div>
                             <!-- /.Navbar-collapse -->
@@ -88,225 +88,237 @@
             </nav>
         </div> 
         <!-- /Navigation -->  
+        <div style="" class="section_div"  id="about_div">
+            <!-- Section: about -->
+            <section id="about" class="home-section">
+                <div class="container hide">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
 
-        <!-- Section: about -->
-        <section id="about" class="home-section">
-            <div class="container hide">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-
-                        <div class="section-heading text-center">
-                            <div class="wow bounceInDown" data-wow-delay="0.2s">
-                                <h2>
-                                    সূর্যাবর্ত</h2>
+                            <div class="section-heading text-center">
+                                <div class="wow bounceInDown" data-wow-delay="0.2s">
+                                    <h2>
+                                        সূর্যাবর্ত</h2>
+                                </div>
+                                <p class="wow bounceInUp" data-wow-delay="0.3s">বাংলা সাহিত্য শিল্প সমাজ ও সংস্কৃতির ত্রৈমাসিক পত্রিকা</p>
                             </div>
-                            <p class="wow bounceInUp" data-wow-delay="0.3s">বাংলা সাহিত্য শিল্প সমাজ ও সংস্কৃতির ত্রৈমাসিক পত্রিকা</p>
-                        </div>
 
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
 
-                        <img src="img/Slide-A.jpg" class="img-responsive img-rounded" alt="" />
+                            <img src="img/Slide-A.jpg" class="img-responsive img-rounded" alt="" />
+                        </div>		
+                        <div class="col-md-8">
+                            <p>
+                                সূর্যাবর্ত ভূমিষ্ঠ হয় ১৯৯৭ সালে সিসৃক্ষা (সৃষ্টির বাসনা) নাম নিয়ে প্রাচীর পত্রিকা হিসেবে,  
+                                কিছু কচিকাচাদের অদম্য উৎসাহকে সঙ্গী করে। সেই সময় থেকে সমস্ত রকম বাধা পেরিয়ে  
+                                দুর্দান্ত গতিতে এখনও চলছে। চলবেও। পরবর্তীকালে নিবন্ধীকরণের সময় নামটি বাধা হয়ে 
+                                দাঁড়ায়। সিসৃক্ষা রূপান্তরিত হয় সূর্যাবর্তে।। ২০১৬-এ সূর্যাবর্ত এগারো বছরে পা দিলো। এই
+                                ত্রৈমাসিক পত্রিকার নামাঙ্কন করেছিলেন বিশিষ্ট চিত্রবিদ নির্বাণ। 
+                            </p>
+                            <p>
+                                বছরে চারবার প্রকাশিত 
+                                হয় জানুয়ারি, এপ্রিল, জুলাই ও অক্টোবরে। সম্পাদনায় আছেন সোমিত্রি রঞ্জন চৌধুরী । 
+                                প্রতি মাসে একবার (প্রধানত রবিবার) সাহিত্যের আড্ডা বসে। পত্রিকার বিভিন্ন অনুরাগীরা 
+                                এই আড্ডায় তাঁদের সুচিন্তিত মত পোষণ করেন, বক্তব্য রাখেন। বৌদ্ধিক আলোচনা হয়।  
+                                সময় ও অকুস্থল আগেই জানিয়ে দেওয়া হয়।
+                            </p>
+                            <p><strong>RNI.WBBEN/12710/2005/TC/262</strong></p>
+                            <blockquote class="hide">
+                                Pri pertinacia elaboraret te, an eirmod delicatissimi nec. Eu liber quodsi maiorum mei. 
+                                Civibus perfecto rationibus id his, est noster nostrud aliquando at.
+                            </blockquote>
+                            <a href="#gallery" class="btn btn-skin btn-lg btn-scroll hide">See my photos</a>
+                        </div>
                     </div>		
-                    <div class="col-md-8">
-                        <p>
-                            সূর্যাবর্ত ভূমিষ্ঠ হয় ১৯৯৭ সালে সিসৃক্ষা (সৃষ্টির বাসনা) নাম নিয়ে প্রাচীর পত্রিকা হিসেবে,  
-                            কিছু কচিকাচাদের অদম্য উৎসাহকে সঙ্গী করে। সেই সময় থেকে সমস্ত রকম বাধা পেরিয়ে  
-                            দুর্দান্ত গতিতে এখনও চলছে। চলবেও। পরবর্তীকালে নিবন্ধীকরণের সময় নামটি বাধা হয়ে 
-                            দাঁড়ায়। সিসৃক্ষা রূপান্তরিত হয় সূর্যাবর্তে।। ২০১৬-এ সূর্যাবর্ত এগারো বছরে পা দিলো। এই
-                            ত্রৈমাসিক পত্রিকার নামাঙ্কন করেছিলেন বিশিষ্ট চিত্রবিদ নির্বাণ। 
-                        </p>
-                        <p>
-                            বছরে চারবার প্রকাশিত 
-                            হয় জানুয়ারি, এপ্রিল, জুলাই ও অক্টোবরে। সম্পাদনায় আছেন সোমিত্রি রঞ্জন চৌধুরী । 
-                            প্রতি মাসে একবার (প্রধানত রবিবার) সাহিত্যের আড্ডা বসে। পত্রিকার বিভিন্ন অনুরাগীরা 
-                            এই আড্ডায় তাঁদের সুচিন্তিত মত পোষণ করেন, বক্তব্য রাখেন। বৌদ্ধিক আলোচনা হয়।  
-                            সময় ও অকুস্থল আগেই জানিয়ে দেওয়া হয়।
-                        </p>
-                        <p><strong>RNI.WBBEN/12710/2005/TC/262</strong></p>
-                        <blockquote class="hide">
-                            Pri pertinacia elaboraret te, an eirmod delicatissimi nec. Eu liber quodsi maiorum mei. 
-                            Civibus perfecto rationibus id his, est noster nostrud aliquando at.
-                        </blockquote>
-                        <a href="#gallery" class="btn btn-skin btn-lg btn-scroll hide">See my photos</a>
-                    </div>
-                </div>		
-            </div>
-        </section>
-        <!-- /Section: about -->
-        <hr style="" class="style18">
-        <!-- Section: about -->
-        <section id="communicate" class="home-section">
-            <div class="container hide">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
+                </div>
+            </section>
+        </div>
+        <div style="display: none;" class="section_div " id="communicate_div">
+            <!-- /Section: about -->
+            <hr style="display:none;" class="style18">
+            <!-- Section: about -->
+            <section id="communicate" class="home-section">
+                <div class="container hide">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
 
-                        <div class="section-heading text-center">
-                            <div class="wow bounceInDown" data-wow-delay="0.2s">
-                                <h2>
-                                    সূর্যাবর্ত</h2>
+                            <div class="section-heading text-center">
+                                <div class="wow bounceInDown" data-wow-delay="0.2s">
+                                    <h2>
+                                        সূর্যাবর্ত</h2>
+                                </div>
+                                <p class="wow bounceInUp" data-wow-delay="0.3s">বাংলা সাহিত্য শিল্প সমাজ ও সংস্কৃতির ত্রৈমাসিক পত্রিকা</p>
                             </div>
-                            <p class="wow bounceInUp" data-wow-delay="0.3s">বাংলা সাহিত্য শিল্প সমাজ ও সংস্কৃতির ত্রৈমাসিক পত্রিকা</p>
-                        </div>
 
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="container">
-                <div class="row">	
-                    <div class="col-md-8">
-                        <p>
-                            সম্পাদক – সৌমিত্রি রঞ্জন চৌধুরী, সিঙ্গাতলা (পুরনো দমকল অফিসের সামনের গলিতে),  
-                            জেলা – মালদা, পিন – ৭৩২১০১, পশ্চিমবঙ্গ। 
+                <div class="container">
+                    <div class="row">	
+                        <div class="col-md-8">
+                            <p>
+                                সম্পাদক – সৌমিত্রি রঞ্জন চৌধুরী, সিঙ্গাতলা (পুরনো দমকল অফিসের সামনের গলিতে),  
+                                জেলা – মালদা, পিন – ৭৩২১০১, পশ্চিমবঙ্গ। 
 
-                        </p>
+                            </p>
 
-                        <p>
-                            চলভাষ নং ৯৪৩৪১৪৯৭৩৫,  
-                            ৮৭৬৮৫২৩৫৬৪ email – suryabarta@gmail.com এবং  ronnjone.sam@gmail.com
-                        </p>
-                        <p> 
-                            সুর্যাবর্তের লিখিত অনুমতি ছাড়া কোন সংখ্যার কোন অংশেরই কোনরূপ পুনঃ প্রকাশন বা প্রতিলিপি করা যাবেনা। কোন যান্ত্রিক উপায়ের (গ্রাফিক্স, ইলেক্ট্রনিক বা অন্যকোনো মাধ্যমে যেমন ফটোকপি, টেপ বা পুনরুদ্ধারের সুযোগ সম্বলিত তথ্য সঞ্চয় করে রাখার পদ্ধতি) মাধ্যমে প্রতিলিপি করা যাবেনা বা কোন ডিস্ক, টেপ, প্যরফরেটেড মিডিয়া, বা কোন তথ্য সংরক্ষণের যান্ত্রিক পদ্ধতিতে পুনরুৎপাদন করা যাবে না। এই শর্ত লঙ্ঘিত হলে উপযুক্ত আইনি ব্যবস্থা গ্রহণ করা হবে।  সমস্ত কানুনি কার্যকলাপ পশ্চিমবঙ্গের জুরিসডিকশনের মধ্যে হতে হবে। 
-                        </p>
-                    </div>
-                    <div class="col-md-4">
+                            <p>
+                                চলভাষ নং ৯৪৩৪১৪৯৭৩৫,  
+                                ৮৭৬৮৫২৩৫৬৪ email – suryabarta@gmail.com এবং  ronnjone.sam@gmail.com
+                            </p>
+                            <p> 
+                                সুর্যাবর্তের লিখিত অনুমতি ছাড়া কোন সংখ্যার কোন অংশেরই কোনরূপ পুনঃ প্রকাশন বা প্রতিলিপি করা যাবেনা। কোন যান্ত্রিক উপায়ের (গ্রাফিক্স, ইলেক্ট্রনিক বা অন্যকোনো মাধ্যমে যেমন ফটোকপি, টেপ বা পুনরুদ্ধারের সুযোগ সম্বলিত তথ্য সঞ্চয় করে রাখার পদ্ধতি) মাধ্যমে প্রতিলিপি করা যাবেনা বা কোন ডিস্ক, টেপ, প্যরফরেটেড মিডিয়া, বা কোন তথ্য সংরক্ষণের যান্ত্রিক পদ্ধতিতে পুনরুৎপাদন করা যাবে না। এই শর্ত লঙ্ঘিত হলে উপযুক্ত আইনি ব্যবস্থা গ্রহণ করা হবে।  সমস্ত কানুনি কার্যকলাপ পশ্চিমবঙ্গের জুরিসডিকশনের মধ্যে হতে হবে। 
+                            </p>
+                        </div>
+                        <div class="col-md-4">
 
-                        <img src="img/Slide-C.jpg" class="img-responsive img-rounded" alt="" />
-                    </div>  
-                </div>		
-            </div>
-        </section>
-        <!-- /Section: about -->
-        <hr style="" class="style18">
-        <!-- Section: about -->
-        <section id="subscription" class="home-section">
-            <div class="container">
-                <div class="row">	
-                    <div class="col-md-4">
+                            <img src="img/Slide-C.jpg" class="img-responsive img-rounded" alt="" />
+                        </div>  
+                    </div>		
+                </div>
+            </section>
+            <!-- /Section: about -->
+        </div>
+        <div style="display:none;" class="section_div " id="subscription_div">
+            <hr style="display:none;" class="style18">
+            <!-- Section: about -->
+            <section id="subscription" class="home-section">
+                <div class="container">
+                    <div class="row">	
+                        <div class="col-md-4">
 
-                        <img src="img/Slide-B.jpg" class="img-responsive img-rounded" alt="" />
-                    </div>  
-                    <div class="col-md-8">
-                        <p> পত্রিকার সান্নিধ্য পেতে হলে অবশ্যই গ্রাহক হতে হবে। প্রতিটি সংখ্যার আর্থিক সহায়তা  
-                            বর্তমানে ৩০.০০ টাকা। বছরের যে কোনো সময় থেকেই গ্রাহক হওয়া যায়। কম করেও পাঁচ  
-                            বছরের গ্রাহক হওয়া বাঞ্ছনীয়। এই চাঁদা মাত্র ৬০০.০০ টাকা। একটি সাধারণ আবেদন পত্রে  
-                            সম্মতি দিন। আবেদন পত্রে নাম, ডাকযোগ্য পুরো ঠিকানা, চলভাষ নং এবং ই-মেল ইত্যাদি  
-                            সূর্যাবর্তের ঠিকানায় পাঠিয়ে দিন। ই-মেলের মাধ্যমেও অনুরোধ পাঠাতে পারেন। তবে গ্রাহক  
-                            চাঁদা নগদেই দিতে হবে; বদলে আপনাকে একটি বৈধ রসিদ দেওয়া হবে। দশ জন গ্রাহক  
-                            দিতে পারলে আপনাকে বিনামুল্যে গ্রাহক করা হবে। 
-                        </p>
-                        <p>
-                            পত্রিকা অন্য কারোর মাধ্যমে দেওয়া  
-                            হয়না। ডাকযোগে পেতে পারেন বা স্বয়ং দফতরে এসেও নিতে পারেন। গ্রাহকের  
-                            আধিক্য বা আর্থিক আনুকূল্য সুর্যাবর্ত ভবিষ্যতে দুই মাস অন্তরও দেখা দিতে পারে।
-                        </p>
-                        <a href="#gallery" class="btn btn-skin btn-lg btn-scroll hide">See my photos</a>
-                    </div>
-                </div>		
-            </div>
-        </section>
-        <!-- /Section: about -->
-        <hr style="" class="style18">
-        <!-- Section: about -->
-        <section id="submission" class="home-section">
-            <div class="container">
-                <div class="row">	
+                            <img src="img/Slide-B.jpg" class="img-responsive img-rounded" alt="" />
+                        </div>  
+                        <div class="col-md-8">
+                            <p> পত্রিকার সান্নিধ্য পেতে হলে অবশ্যই গ্রাহক হতে হবে। প্রতিটি সংখ্যার আর্থিক সহায়তা  
+                                বর্তমানে ৩০.০০ টাকা। বছরের যে কোনো সময় থেকেই গ্রাহক হওয়া যায়। কম করেও পাঁচ  
+                                বছরের গ্রাহক হওয়া বাঞ্ছনীয়। এই চাঁদা মাত্র ৬০০.০০ টাকা। একটি সাধারণ আবেদন পত্রে  
+                                সম্মতি দিন। আবেদন পত্রে নাম, ডাকযোগ্য পুরো ঠিকানা, চলভাষ নং এবং ই-মেল ইত্যাদি  
+                                সূর্যাবর্তের ঠিকানায় পাঠিয়ে দিন। ই-মেলের মাধ্যমেও অনুরোধ পাঠাতে পারেন। তবে গ্রাহক  
+                                চাঁদা নগদেই দিতে হবে; বদলে আপনাকে একটি বৈধ রসিদ দেওয়া হবে। দশ জন গ্রাহক  
+                                দিতে পারলে আপনাকে বিনামুল্যে গ্রাহক করা হবে। 
+                            </p>
+                            <p>
+                                পত্রিকা অন্য কারোর মাধ্যমে দেওয়া  
+                                হয়না। ডাকযোগে পেতে পারেন বা স্বয়ং দফতরে এসেও নিতে পারেন। গ্রাহকের  
+                                আধিক্য বা আর্থিক আনুকূল্য সুর্যাবর্ত ভবিষ্যতে দুই মাস অন্তরও দেখা দিতে পারে।
+                            </p>
+                            <a href="#gallery" class="btn btn-skin btn-lg btn-scroll hide">See my photos</a>
+                        </div>
+                    </div>		
+                </div>
+            </section>
+            <!-- /Section: about -->
+        </div>
+        <div style="display:none;" class="section_div " id="submission_div">
+            <hr style="display:none;" class="style18">
+            <!-- Section: about -->
+            <section id="submission" class="home-section">
+                <div class="container">
+                    <div class="row">	
 
-                    <div class="col-md-8">
-                        <p> সর্বশ্রেষ্ঠ উৎকৃষ্ট লেখা – গল্প (২০০০ শব্দের মধ্যে, শব্দের আধিক্যে প্রয়োজনে ধারাবাহিক  
-                            ভাবে প্রকাশিত হতে পারে), কবিতা (২৫ পঙক্তিতে সীমাবদ্ধ), প্রবন্ধ, অনুবাদ, ভ্রমণ কাহিনী 
-                            ও চিঠিপত্র পাঠান।  কাগজের এক পিঠে পরিস্কার ভাবে লিখবেন অথবা বিজয় সফটোয়ার  
-                            ব্যবহার করে সফট কপিও পাঠাতে পারেন। একমাত্র সম্পাদকের মনোনয়ন হলেই লেখা 
-                            সূর্যাবর্তে স্থান পাবে। অমনোনীত লেখা ফেরত পাঠানো হয়না। লেখা কোন সংখ্যায় ছাপা হবে,  
-                            জানানো সম্ভব নয়। লেখা (চিঠিপত্র ব্যতীত) মনোনীত হলে লেখকের গ্রাহক হওয়া বাঞ্ছনীয়।  
-                        </p>
-                        <p>চিঠিপত্রের মাধ্যমে মতামত প্রকাশের দায়বদ্ধতা লেখকের। লেখা নকল প্রমাণিত হলে তার  
-                            দায়বদ্ধতা লেখক/কবি/প্রবন্ধকারের ওপর বর্তাবে। সূর্যাবর্ত কোনমতেই দায়ী থাকবে না। 
-                            সমালোচনার জন্যে বই পাঠাতে হলে দুটি কপি পাঠাবেন।
-                        </p>
-                        <a href="#gallery" class="btn btn-skin btn-lg btn-scroll hide">See my photos</a>
-                    </div>
-                    <div class="col-md-4">
+                        <div class="col-md-8">
+                            <p> সর্বশ্রেষ্ঠ উৎকৃষ্ট লেখা – গল্প (২০০০ শব্দের মধ্যে, শব্দের আধিক্যে প্রয়োজনে ধারাবাহিক  
+                                ভাবে প্রকাশিত হতে পারে), কবিতা (২৫ পঙক্তিতে সীমাবদ্ধ), প্রবন্ধ, অনুবাদ, ভ্রমণ কাহিনী 
+                                ও চিঠিপত্র পাঠান।  কাগজের এক পিঠে পরিস্কার ভাবে লিখবেন অথবা বিজয় সফটোয়ার  
+                                ব্যবহার করে সফট কপিও পাঠাতে পারেন। একমাত্র সম্পাদকের মনোনয়ন হলেই লেখা 
+                                সূর্যাবর্তে স্থান পাবে। অমনোনীত লেখা ফেরত পাঠানো হয়না। লেখা কোন সংখ্যায় ছাপা হবে,  
+                                জানানো সম্ভব নয়। লেখা (চিঠিপত্র ব্যতীত) মনোনীত হলে লেখকের গ্রাহক হওয়া বাঞ্ছনীয়।  
+                            </p>
+                            <p>চিঠিপত্রের মাধ্যমে মতামত প্রকাশের দায়বদ্ধতা লেখকের। লেখা নকল প্রমাণিত হলে তার  
+                                দায়বদ্ধতা লেখক/কবি/প্রবন্ধকারের ওপর বর্তাবে। সূর্যাবর্ত কোনমতেই দায়ী থাকবে না। 
+                                সমালোচনার জন্যে বই পাঠাতে হলে দুটি কপি পাঠাবেন।
+                            </p>
+                            <a href="#gallery" class="btn btn-skin btn-lg btn-scroll hide">See my photos</a>
+                        </div>
+                        <div class="col-md-4">
 
-                        <img src="img/Slide-D.jpg" class="img-responsive img-rounded" alt="" />
-                    </div>  
-                </div>		
-            </div>
-        </section>
-        <!-- /Section: about -->
-        <hr style="" class="style18">
-        <!-- Section: about -->
-        <section id="previous_issues" class="home-section">
-            <div class="container">
-                <div class="row">	
-                    <div class="col-md-4">
+                            <img src="img/Slide-D.jpg" class="img-responsive img-rounded" alt="" />
+                        </div>  
+                    </div>		
+                </div>
+            </section>
+            <!-- /Section: about -->
+        </div>
+        <div style="display:none;" class="section_div " id="previous_issues_div">
+            <hr style="display:none;" class="style18">
+            <!-- Section: about -->
+            <section id="previous_issues" class="home-section">
+                <div class="container">
+                    <div class="row">	
+                        <div class="col-md-4">
 
-                        <img src="img/Slide-E.jpg" class="img-responsive img-rounded" alt="" />
-                    </div>  
-                    <div class="col-md-8">
-                        <p> পুরনো সংখ্যা পেতে হলে যোগাযোগ করুন। চাহিদা অনুযায়ী সমস্ত সংখ্যাই উপলব্ধ  
-                            করা হয়। এর জন্যে অতিরিক্ত অতি কিঞ্চিৎ মূল্যই প্রদত্ত। 
+                            <img src="img/Slide-E.jpg" class="img-responsive img-rounded" alt="" />
+                        </div>  
+                        <div class="col-md-8">
+                            <p> পুরনো সংখ্যা পেতে হলে যোগাযোগ করুন। চাহিদা অনুযায়ী সমস্ত সংখ্যাই উপলব্ধ  
+                                করা হয়। এর জন্যে অতিরিক্ত অতি কিঞ্চিৎ মূল্যই প্রদত্ত। 
 
-                        </p>
-                        <a href="#gallery" class="btn btn-skin btn-lg btn-scroll hide">See my photos</a>
-                    </div>
+                            </p>
+                            <a href="#gallery" class="btn btn-skin btn-lg btn-scroll hide">See my photos</a>
+                        </div>
 
-                </div>		
-            </div>
-        </section>
-        <!-- /Section: about -->
-        <hr style="" class="style18">
-        <!-- Section: about -->
-        <section id="advertisement" class="home-section">
-            <div class="container">
-                <div class="row">	
+                    </div>		
+                </div>
+            </section>
+            <!-- /Section: about -->
+        </div>
+        <div style="display:none;" class="section_div " id="advertisement_div">
+            <hr style="display:none;" class="style18">
+            <!-- Section: about -->
+            <section id="advertisement" class="home-section">
+                <div class="container">
+                    <div class="row">	
 
-                    <div class="col-md-8">
-                        <p> একটি সুস্থ মানসিকতার উদার মুক্ত মনের পত্রিকাকে সবল ও দীর্ঘায়ু করতে বিজ্ঞাপন দিন।  
-                            প্রতিটি বিজ্ঞাপনে ৫% কমিশন দেওয়া হয়। 
+                        <div class="col-md-8">
+                            <p> একটি সুস্থ মানসিকতার উদার মুক্ত মনের পত্রিকাকে সবল ও দীর্ঘায়ু করতে বিজ্ঞাপন দিন।  
+                                প্রতিটি বিজ্ঞাপনে ৫% কমিশন দেওয়া হয়। 
 
 
-                        </p>
-                        <a href="#gallery" class="btn btn-skin btn-lg btn-scroll hide">See my photos</a>
-                    </div>
-                    <div class="col-md-4">
+                            </p>
+                            <a href="#gallery" class="btn btn-skin btn-lg btn-scroll hide">See my photos</a>
+                        </div>
+                        <div class="col-md-4">
 
-                        <img src="img/Slide-F.jpg" class="img-responsive img-rounded" alt="" />
-                    </div>  
-                </div>		
-            </div>
-        </section>
-        <!-- /Section: about -->
-        <hr style="" class="style18">
+                            <img src="img/Slide-F.jpg" class="img-responsive img-rounded" alt="" />
+                        </div>  
+                    </div>		
+                </div>
+            </section>
+            <!-- /Section: about -->
+        </div>
+        <div style="display:none;" class="section_div " id="publication_div">
+            <hr style="display:none;" class="style18">
 
-        <!-- Section: about -->
-        <section id="publication" class="home-section">
-            <div class="container">
-                <div class="row">   
-                    <div class="col-md-4">
+            <!-- Section: about -->
+            <section id="publication" class="home-section">
+                <div class="container">
+                    <div class="row">   
+                        <div class="col-md-4">
 
-                        <img src="img/Slide-G.jpg" class="img-responsive img-rounded" alt="" />
-                    </div>  
-                    <div class="col-md-8">
-                        <p> সুর্যাবর্ত একটি প্রকাশন সংস্থা। আপনার লেখা সমূহ পুস্তকাকারে প্রকাশ করতে পারেন। 
-                            প্রকাশনার যাবতীয় ব্যয় লেখককে বহন করতে হবে। অন্যান্য প্রকাশকের তুলনায় সুর্যাবর্ত 
-                            অস্বাভাবিক কম মুল্যে আপনার বই ছাপবে।
+                            <img src="img/Slide-G.jpg" class="img-responsive img-rounded" alt="" />
+                        </div>  
+                        <div class="col-md-8">
+                            <p> সুর্যাবর্ত একটি প্রকাশন সংস্থা। আপনার লেখা সমূহ পুস্তকাকারে প্রকাশ করতে পারেন। 
+                                প্রকাশনার যাবতীয় ব্যয় লেখককে বহন করতে হবে। অন্যান্য প্রকাশকের তুলনায় সুর্যাবর্ত 
+                                অস্বাভাবিক কম মুল্যে আপনার বই ছাপবে।
 
-                        </p>
-                        <a href="#gallery" class="btn btn-skin btn-lg btn-scroll hide">See my photos</a>
-                    </div>
+                            </p>
+                            <a href="#gallery" class="btn btn-skin btn-lg btn-scroll hide">See my photos</a>
+                        </div>
 
-                </div>      
-            </div>
-        </section>
-        <!-- /Section: about --> 
-
+                    </div>      
+                </div>
+            </section>
+            <!-- /Section: about --> 
+        </div>
         <hr style="" class="style18">
 
         <!-- Section: about -->
@@ -487,7 +499,7 @@
           </section>
           <!-- /Section: separator -->
           <?php */ ?>
-        <hr style="" class="style18">
+        <hr style="display:none;" class="style18">
         <!-- Section: gallery -->
 
 
@@ -661,6 +673,16 @@
         <!-- Custom Theme JavaScript -->
         <script src="js/custom.js"></script>
 
+        <script type="text/javascript">
+                                        function goToSection(section_name,obj) {
+                                            $('ul.navbar-nav a').each(function(){
+                                                $(this).removeClass('active');
+                                            });
+                                            obj.addClass('active');
+                                            $('.section_div').fadeOut();
+                                            $('#' + section_name + '_div').fadeIn();
+                                        }
+        </script>
     </body>
 
 </html>

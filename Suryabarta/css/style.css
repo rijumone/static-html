@@ -709,3 +709,7 @@ ul.unstyled {
 .nivo-lightbox-title-wrap {
     text-align: left;
 }
+
+.navbar-custom ul.nav li a.active {
+    color: #d43076;
+}
