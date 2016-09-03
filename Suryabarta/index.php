@@ -70,13 +70,13 @@
                             <!-- Collect the nav links, forms, and other content for toggling -->
                             <div class="collapse navbar-collapse" id="menu">
                                 <ul class="nav navbar-nav">
-                                    <li class="active"><a href="javascript:void(0);" class="active" onclick="goToSection('about',$(this))">অন্দরমহল</a></li>
-                                    <li><a href="javascript:void(0);" onclick="goToSection('communicate',$(this));">সম্পর্ক</a></li>
-                                    <li><a href="javascript:void(0);"  onclick="goToSection('subscription',$(this));">সান্নিধ্য</a></li>                                                                                                             
-                                    <li><a href="javascript:void(0);"  onclick="goToSection('submission',$(this));">পান্ডুলিপি</a></li>
-                                    <li><a href="javascript:void(0);"  onclick="goToSection('previous_issues',$(this));"    >অতীত স্মৃতি</a></li>
-                                    <li><a href="javascript:void(0);"  onclick="goToSection('advertisement',$(this));" >বিজ্ঞাপন</a></li>
-                                    <li><a href="javascript:void(0);"  onclick="goToSection('publication',$(this));" >প্রকাশনা</a></li>
+                                    <li class="active"><a href="javascript:void(0);" class="active" onclick="goToSection('about', $(this))">অন্দরমহল</a></li>
+                                    <li><a href="javascript:void(0);" onclick="goToSection('communicate', $(this));">সম্পর্ক</a></li>
+                                    <li><a href="javascript:void(0);"  onclick="goToSection('subscription', $(this));">সান্নিধ্য</a></li>                                                                                                             
+                                    <li><a href="javascript:void(0);"  onclick="goToSection('submission', $(this));">পান্ডুলিপি</a></li>
+                                    <li><a href="javascript:void(0);"  onclick="goToSection('previous_issues', $(this));"    >অতীত স্মৃতি</a></li>
+                                    <li><a href="javascript:void(0);"  onclick="goToSection('advertisement', $(this));" >বিজ্ঞাপন</a></li>
+                                    <li><a href="javascript:void(0);"  onclick="goToSection('publication', $(this));" >প্রকাশনা</a></li>
                                 </ul>
                             </div>
                             <!-- /.Navbar-collapse -->
@@ -231,6 +231,13 @@
                                 ব্যবহার করে সফট কপিও পাঠাতে পারেন। একমাত্র সম্পাদকের মনোনয়ন হলেই লেখা 
                                 সূর্যাবর্তে স্থান পাবে। অমনোনীত লেখা ফেরত পাঠানো হয়না। লেখা কোন সংখ্যায় ছাপা হবে,  
                                 জানানো সম্ভব নয়। লেখা (চিঠিপত্র ব্যতীত) মনোনীত হলে লেখকের গ্রাহক হওয়া বাঞ্ছনীয়।  
+                                প্রতিটি লেখার সঙ্গে, আপনার
+
+                                পুরো নাম (লেখা ছদ্মনামে হলে, সত্যকার নাম জানানো বাঞ্ছনীয়। লেখক চাইলে আসল
+
+                                নাম
+
+                                ছাপা হবে না), ডাকযোগ্য ঠিকানা (পিন নং সহ), চলভাষ নং ইত্যাদি থাকতে হবে।
                             </p>
                             <p>চিঠিপত্রের মাধ্যমে মতামত প্রকাশের দায়বদ্ধতা লেখকের। লেখা নকল প্রমাণিত হলে তার  
                                 দায়বদ্ধতা লেখক/কবি/প্রবন্ধকারের ওপর বর্তাবে। সূর্যাবর্ত কোনমতেই দায়ী থাকবে না। 
@@ -385,67 +392,91 @@
                                     <li><strong>ক)</strong> ভারতীয় নাগরিক কি? : হ্যাঁ</li>
                                 </ul>
                             </li>
-                            ৬। প্রকাশনার স্থান ঠিকানা
+                            <li>
+                                <strong>৬।</strong> প্রকাশনার স্থান ঠিকানা
 
-                            (দয়া করে সম্পূর্ন ডাকযোগ্য ঠিকানা দিন) : সম্পাদক সৌমিত্রি রঞ্জন চৌধুরী, মধ্য-
+                                (দয়া করে সম্পূর্ন ডাকযোগ্য ঠিকানা দিন) : সম্পাদক সৌমিত্রি রঞ্জন চৌধুরী, মধ্য-
 
-                            সিঙ্গাতলা (পুরনো দমকল অফিসের সামনের গলিতে), জেলা – মালদা, পিন –
+                                সিঙ্গাতলা (পুরনো দমকল অফিসের সামনের গলিতে), জেলা – মালদা, পিন –
 
-                            ৭৩২১০১, পশ্চিমবঙ্গ, ভারত
+                                ৭৩২১০১, পশ্চিমবঙ্গ, ভারত
+                            </li> 
+                            <li>
+                                <strong>৭।</strong> মুদ্রকের নাম : সৌমিত্রি রঞ্জন চৌধুরী
 
-                            ৭। মুদ্রকের নাম : সৌমিত্রি রঞ্জন চৌধুরী
 
-                             জাতীয়তা
+                                <ul class="unstyled">
+                                    <li><strong>জাতীয়তা</strong></li>
+                                    <li><strong>ক)</strong> ভারতীয় নাগরিক কি? : হ্যাঁ</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>৮।</strong> মুদ্রণযন্ত্রের নাম, যেখান থেকে সত্যি সত্যিই ছাপা হয়
 
-                            ক) ভারতীয় নাগরিক কি? : হ্যাঁ
+                                এবং সত্যিকার ঠিকানা, যেখানে মুদ্রণযন্ত্রটি বসানো আছে : মধ্য-সিঙ্গাতলা (পুরনো
 
-                            ৮। মুদ্রণযন্ত্রের নাম, যেখান থেকে সত্যি সত্যিই ছাপা হয়
+                                দমকল অফিসের সামনের গলিতে),
 
-                            এবং সত্যিকার ঠিকানা, যেখানে মুদ্রণযন্ত্রটি বসানো আছে : মধ্য-সিঙ্গাতলা (পুরনো
+                                জেলা – মালদা, পিন –৭৩২১০১, পশ্চিমবঙ্গ, ভারত
+                            </li>
+                            <li>
+                                <strong>৯।</strong> সম্পাদকের নাম : সৌমিত্রি রঞ্জন চৌধুরী
 
-                            দমকল অফিসের সামনের গলিতে),
+                                <ul class="unstyled">
+                                    <li><strong>জাতীয়তা</strong></li>
 
-                            জেলা – মালদা, পিন –৭৩২১০১, পশ্চিমবঙ্গ, ভারত
+                                    <li><strong>ক)</strong> ভারতীয় নাগরিক কি? : হ্যাঁ</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>১০।</strong> মালিকের নাম
+                                <ul class="unstyled">
 
-                            ৯। সম্পাদকের নাম : সৌমিত্রি রঞ্জন চৌধুরী
+                                    <li><strong>ক)</strong> দয়া করে তাঁর বা তাঁদের বিবরণ দিন, যিনি বা যাঁরা
 
-                             জাতীয়তা
+                                        ব্যক্তিগত, ফার্ম, যৌথ কম্পানি, ট্র্যস্ট, সমবায় সংস্থা
 
-                            ক) ভারতীয় নাগরিক কি? : হ্যাঁ
+                                        অথবা কোন সম্মিলিত সংঘ হিসেবে পত্রিকার মালিক : সৌমিত্রি রঞ্জন চৌধুরী
 
-                            ১০। মালিকের নাম
+                                        (ব্যাক্তিগত)
+                                    </li>
+                                    <li>
+                                        <strong>খ)</strong> বর্তমান পত্রিকার মালিক কি অন্য আর কোন সনবাদপত্রের
 
-                            ক) দয়া করে তাঁর বা তাঁদের বিবরণ দিন, যিনি বা যাঁরা
+                                        সঙ্গে যুক্ত আছেন, যদি হোন, তবে নাম, পর্যায়কাল, ভাষা
 
-                            ব্যক্তিগত, ফার্ম, যৌথ কম্পানি, ট্র্যস্ট, সমবায় সংস্থা
+                                        এবং প্রকাশনার স্থান উল্লেখ করুন : না
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>১১।</strong> এই ঘোষণা পত্রটি কি
+                                <ul class="unstyled">
+                                    <li><strong>ক)</strong> নতুন পত্রিকার জন্যে, অথবা</li>
 
-                            অথবা কোন সম্মিলিত সংঘ হিসেবে পত্রিকার মালিক : সৌমিত্রি রঞ্জন চৌধুরী
+                                    <li><strong>খ)</strong> বিদ্যমান পত্রিকার জন্যে : বিদ্যমান/বর্তমান পত্রিকার জন্যে
+                                    </li>
+                                    <li>                       <strong>গ)</strong> যদি ঘোষণা পত্রটি (খ) এর জন্যে, তাহলে নতুন করে
 
-                            (ব্যাক্তিগত)
-
-                            খ) বর্তমান পত্রিকার মালিক কি অন্য আর কোন সনবাদপত্রের
-
-                            2
-
-                            সঙ্গে যুক্ত আছেন, যদি হোন, তবে নাম, পর্যায়কাল, ভাষা
-
-                            এবং প্রকাশনার স্থান উল্লেখ করুন : না
-
-                            ১১। এই ঘোষণা পত্রটি কি
-
-                            ক) নতুন পত্রিকার জন্যে, অথবা
-
-                            খ) বিদ্যমান পত্রিকার জন্যে : বিদ্যমান/বর্তমান পত্রিকার জন্যে
-
-                            গ) যদি ঘোষণা পত্রটি (খ) এর জন্যে, তাহলে নতুন করে
-
-                            ঘোষণা পত্রের বিবরণ দেবার কারণ লিখুন : ওয়েবসাইটে দেবার জন্যে
+                                        ঘোষণা পত্রের বিবরণ দেবার কারণ লিখুন : ওয়েবসাইটে দেবার জন্যে
+                                    </li>
+                                </ul>
+                            </li>
                         </ul>
-                        তারিখ : ০১/০৪/২০১৬ Sd/-
-
-                        নাম (বড়ো অক্ষরে) : সৌমিত্রি রঞ্জন চৌধুরী
-
-                        পদ : সম্পাদক
+                        <div>
+                            <div class="col-sm-12 col-md-6">
+                                তারিখ : ০১/০৪/২০১৬ 
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <div class="text-center">
+                                    Sd/-
+                                    <br>
+                                    নাম (বড়ো অক্ষরে) : সৌমিত্রি রঞ্জন চৌধুরী
+                                    <br>
+                                    পদ : সম্পাদক
+                                </div>
+                            </div>
+                        </div>
                         </p>
                     </div>
                     <div class="col-md-4">
@@ -674,8 +705,8 @@
         <script src="js/custom.js"></script>
 
         <script type="text/javascript">
-                                        function goToSection(section_name,obj) {
-                                            $('ul.navbar-nav a').each(function(){
+                                        function goToSection(section_name, obj) {
+                                            $('ul.navbar-nav a').each(function () {
                                                 $(this).removeClass('active');
                                             });
                                             obj.addClass('active');
